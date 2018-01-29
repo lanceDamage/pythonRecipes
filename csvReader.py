@@ -1,4 +1,6 @@
-'''In this project, I'll import some simple data from local location within the spyder file'''
+'''
+In this project, I'll import some simple data from local location within the spyder file
+'''
 #first, I'll import some important tools
 import csv
 #this will format the csvcar
