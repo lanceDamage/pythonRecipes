@@ -1,5 +1,7 @@
 """
-I am building a recipe to import exploit data from the web into python
+I am building a script to import exploit data from the NVD webpage into python.
+Specifically, I'll pulling in the exploitDB to CVE reference maps.
+I'm using those to add a data feature of exploitable to a list of CVEs.
 """
 #Gather the tools
 import pandas as pd
