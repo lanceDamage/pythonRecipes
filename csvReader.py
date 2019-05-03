@@ -2,7 +2,7 @@
 #first, I'll import some important tools
 import csv
 #this will format the csvcar
-Reader = csv.reader(open('mycardata.csv',newline=''),delimiter=' ')
+carReader = csv.reader(open('mycardata.csv',newline=''),delimiter=' ')
 #now I will iterate through the csv
 for row in carReader:
     print(', '.join(row))
